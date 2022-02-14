@@ -1,0 +1,47 @@
+{
+    "banner":
+"""################################################################
+#                         CPUv1 Sim v1                         #
+################################################################
+The way to do basic simulation of this cpu
+LICENSE MENTION TODO""",
+    "init_start":"Initializing simulator",
+    "init_loop_default":"Stuck? Use command 'help' for additional commands that are availble now",
+    "init_help":
+"""init help[1/3]
+This command brings up the help page
+Use help [num] to bring up any page of help
+Use help 3 to bring up a list of commands""",
+    "init_help_1":
+"""init help[1/3]
+This command brings up the help page
+Use help [num] to bring up any page of help
+Use help num to bring up a list of commands""",
+    "init_help_2":
+"""init help[2/3]
+This mode is in initialization mode
+It is used to familiarize oneself with the terminal and display the copyright license
+Mostly just to display the copyright license 
+The program limits maxium characters per line to 64 to minimize needed window size""",
+    "init_help_3":
+"""init help[3/3]
+list of valid commands here:
+help/help [num]
+displays help
+license
+displays copyright license
+continue
+exits initialization mode, enters simulation mode
+NOTE: Commands will only take the exact amount of arguements handble
+any excess arguements will cause an error
+NOTE: Commands are case sensitive""",
+    "init_help_error":
+"""ERR: help will only take either no arguements or a single valid
+postive interger""",
+    "init_license":"LICENSE TODO",
+    "init_license_error":"ERR: license does not take any arguements",
+    "init_continue":"Exiting initialization mode(that was fast)",
+    "init_continue_error":"ERR: continue does not take any arguements",
+    "init_unknown_command":"Unknown/unexpected command in init mode.",
+    "load_sim_start":"Loading simulation details",
+}
